@@ -1,5 +1,6 @@
 package com.arismore.git;
 
 public class ClassA {
+	private int x;
 
 }
