@@ -1,5 +1,9 @@
 package com.arismore.git;
 
+/**
+ * @author Louay Saadi
+ *
+ */
 public class ClassA {
 	private int x;
 	
@@ -20,5 +24,12 @@ public class ClassA {
 	public void setX(int x) {
 		this.x = x;
 	}
+
+	@Override
+	public String toString() {
+		return "ClassA [x=" + x + ", y=" + y + "]";
+	}
+	
+	
 
 }
